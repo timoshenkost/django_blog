@@ -44,9 +44,18 @@ pip install -r requirements.txt
 
 5. Создайте в корне файл `.env` и запишите следующие поля:
 ```
-SECRET_KEY = Ваш SECRET_KEY
-RECAPTCHA_PUBLIC_KEY = '6LddLC0pAAAAAG2u0P97oeEzmCjufurYgBxKdG1z'
-RECAPTCHA_PRIVATE_KEY = '6LddLC0pAAAAAI7ElDhOTY3ho7WUyvxh-ViyBkO8'
+GITHUB_KEY = 
+GITHUB_SECRET = 
+
+GOOGLE_KEY = 
+GOOGLE_SECRET = 
+
+SECRET_KEY = 
+
+EMAIL_HOST = 
+EMAIL_HOST_PASSWORD = 
+
+DATABASE_PASSWORD = 
 ```
 
 6. Выполните миграции базы данных:
